@@ -1,0 +1,29 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "exams",
+      "description": "postponed"
+    },
+    {
+      "id": 2,
+      "title": "river",
+      "description": "cleaning"
+    },
+    {
+      "id": 3,
+      "title": "Italy",
+      "description": "Let us Pray"
+    },
+    {
+      "id": 4,
+      "title": "Economy",
+      "description": "?????"
+    },
+    {
+      "id": 5,
+      "title": "Today",
+      "description": "Good day"
+    }
+  ]
+}

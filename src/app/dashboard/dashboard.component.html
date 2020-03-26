@@ -1,0 +1,38 @@
+<div>
+
+    <h4> I am inside dashboard </h4>
+
+    Welcome {{name}}
+
+<p *ngIf="score>=78">
+    You Are selected 
+</p>
+
+
+Group Allotted
+
+<input type=text value={{name}}>
+
+<li *ngFor="let subj of subjects">
+    {{subj}}
+</li>
+
+<span [style.color]="mycolor">
+    Thank You so much 
+</span>
+<div>
+
+
+
+<button (click)="callFun()">Register</button>
+
+
+<button [disabled]="answer"> Login </button>
+
+</div>
+
+
+</div>
+
+
+

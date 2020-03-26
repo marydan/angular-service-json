@@ -1,0 +1,36 @@
+   <div class="cls-expansion">
+        <mat-expansion-panel class="cls-matexp">
+             <mat-expansion-panel-header>
+                <mat-panel-title>
+               Employee
+               </mat-panel-title>
+               <mat-panel-description>
+                  Recuritment Details 
+               </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div class="cls-fields">
+              <mat-form-field>
+                    <mat-label> Employee id</mat-label>
+                    <input matInput [(ngModel)]="empobj.id">
+              </mat-form-field>
+                    <mat-form-field>
+                    <mat-label> Employee Name</mat-label>
+                    <input matInput [(ngModel)]="empobj.ename">     
+              </mat-form-field>
+              <input type=button value="Add Details" (click)="addEmp()">
+            </div>
+            </mat-expansion-panel>
+      </div>
+
+ <div class="matcontent">     
+<mat-card class="example-card" *ngFor="let emp of employees">
+   <mat-card-header>
+         <mat-card-title>{{emp.id}}</mat-card-title>
+       </mat-card-header>
+  
+   <mat-card-content>
+     Name is {{emp.ename}}
+   </mat-card-content>
+     
+</mat-card>
+</div>
